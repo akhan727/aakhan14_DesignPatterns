@@ -17,14 +17,12 @@ repositories {
 dependencies {
 
     compile "junit:junit:4.12" 
-    compile files('cls/')
 }
 
 test {
 	filter {
 		//specific test class
-		includeTestsMatching "GivenWhiteBox"
-		includeTestsMatching "CourseTest"
+		includeTestsMatching "ZombieTruckTest"
 	} 
 }
 

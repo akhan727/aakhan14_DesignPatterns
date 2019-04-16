@@ -1,7 +1,13 @@
 package main.java.factory;
 
 public abstract class Factory {
+    
     ZombieTruck zombieTruck;
+    
+    /**
+     * Abstract class Factory declares an abstract createZombieTruck() method 
+     * which is invoked from this public assembleZombieTruck() method.
+     **/
     public ZombieTruck assembleZombieTruck() {
         System.out.println("Step 1: Starting to build Zombie Truck...");
         zombieTruck = createZombieTruck();
@@ -9,5 +15,6 @@ public abstract class Factory {
         System.out.println("/////// Zombie Truck completed!\n");
         return zombieTruck;
     }
+    
     protected abstract ZombieTruck createZombieTruck();
 }
