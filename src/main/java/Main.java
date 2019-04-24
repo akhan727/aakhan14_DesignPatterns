@@ -1,5 +1,6 @@
 /**
-* This program processes vehicles using 3 different design patterns.
+* This program processes vehicles using 3 different design patterns. This Main
+* class can be seen as the dealership that orders cars from various factories.
 *
 * @author  Aaron Khan
 * @version 2.0
@@ -11,7 +12,7 @@ package main.java;
 import java.text.DecimalFormat;
 
 import main.java.decorator.BaseModel;
-import main.java.decorator.PartsDecorator;
+//import main.java.decorator.PartsDecorator; // Never used
 import main.java.decorator.PerformanceTires;
 import main.java.decorator.PowerBrakes;
 import main.java.decorator.SportsCar;
@@ -28,7 +29,7 @@ import main.java.factory.SwampZombieTruck;
 import main.java.factory.ZombieTruck;
 
 import main.java.strategy.CarBuilderClient;
-import main.java.strategy.CarBuilderStrategy;
+//import main.java.strategy.CarBuilderStrategy; // Never used
 import main.java.strategy.ChevroletBuilderStrategy;
 import main.java.strategy.FordBuilderStrategy;
 import main.java.strategy.HondaBuilderStrategy;
@@ -39,7 +40,7 @@ public class Main {
 
     /**
      * This is the main method. You could see this as the dealership
-     * @param args Used for command line arguments.
+     * @param args Used for command line arguments. Non-functional.
      **/
     public static void main(String[] args) {
         

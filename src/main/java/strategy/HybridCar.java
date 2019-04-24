@@ -1,5 +1,9 @@
 package main.java.strategy;
 
+/**
+ * This class creates hybrid car objects with an engine, make, manufacturer, 
+ * model, series, size class, and year. 
+ **/
 public class HybridCar {
 
     private String engine;
@@ -80,6 +84,11 @@ public class HybridCar {
         this.year = year;
     }
     
+    /**
+     * This method allows the client to print a single string detailing all the 
+     * attributes of a HybridCar object.
+     * @return String Returns a string of object's car attributes.
+     **/
     public String toString() {
 
         return "  Make: " + make 

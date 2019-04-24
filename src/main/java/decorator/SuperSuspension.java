@@ -1,5 +1,9 @@
 package main.java.decorator;
 
+/**
+ * This class serves as a concrete decorator. It provides a decorator for 
+ * components.
+ **/
 public class SuperSuspension extends PartsDecorator {
     
     /**
