@@ -33,15 +33,19 @@ public class StrategyTest {
         
         client.setStategy(new ToyotaBuilderStrategy());
         toyota = client.buildCar("Toyota");
+        System.out.println(toyota.toString()); // Display to console
         
         client.setStategy(new FordBuilderStrategy());
         ford = client.buildCar("Ford");
+        System.out.println(ford.toString()); // Display to console
         
         client.setStategy(new ChevroletBuilderStrategy());
         chevrolet = client.buildCar("Chevrolet");
+        System.out.println(chevrolet.toString()); // Display to console
         
         client.setStategy(new HondaBuilderStrategy());
         honda = client.buildCar("Honda");
+        System.out.println(honda.toString()); // Display to console
     }
 
     @Test

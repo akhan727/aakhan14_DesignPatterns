@@ -72,5 +72,25 @@ public class DecoratorTest {
         assertEquals(formatter.format(39725.00), formatter.format(twoUpgrades.getPrice()));
         assertEquals(formatter.format(40575.00), formatter.format(threeUpgrades.getPrice()));
         assertEquals(formatter.format(50575.00), formatter.format(fourUpgrades.getPrice()));  
+        
+        System.out.println("\nInvoice: " + baseModel.getDescription());
+        System.out.println("\n\t  $" + formatter.format(baseModel.getPrice()) 
+                           + " [TOTAL]"); 
+        
+        System.out.println("\nInvoice: " + oneUpgrade.getDescription());
+        System.out.println("\n\t  $" + formatter.format(oneUpgrade.getPrice()) 
+                           + " [TOTAL]"); 
+        
+        System.out.println("\nInvoice: " + twoUpgrades.getDescription());
+        System.out.println("\n\t  $" + formatter.format(twoUpgrades.getPrice()) 
+                           + " [TOTAL]"); 
+        
+        System.out.println("\nInvoice: " + threeUpgrades.getDescription());
+        System.out.println("\n\t  $" + formatter.format(threeUpgrades.getPrice()) 
+                           + " [TOTAL]"); 
+        
+        System.out.println("\nInvoice: " + fourUpgrades.getDescription());
+        System.out.println("\n\t  $" + formatter.format(fourUpgrades.getPrice()) 
+                           + " [TOTAL]"); 
     }
 }

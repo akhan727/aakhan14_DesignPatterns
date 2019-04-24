@@ -23,6 +23,8 @@ test {
 	filter {
 		//specific test class
 		includeTestsMatching "ZombieTruckTest"
+		includeTestsMatching "StrategyTest"
+		includeTestsMatching "DecoratorTest"
 	} 
 }
 
