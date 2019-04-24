@@ -18,7 +18,7 @@ public class PowerBrakes extends PartsDecorator {
     
     public String getDescription() {
         
-        return tempSportsCar.getDescription() + "\n\t+  $6,000.00 [UPGRADE] Power Brakes";
+        return tempSportsCar.getDescription() + "\n\t+  $6,500.00 [UPGRADE] Power Brakes";
     }
     
     public double getPrice() {
